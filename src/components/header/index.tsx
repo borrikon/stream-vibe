@@ -13,10 +13,7 @@ function Header() {
         </button>
       </nav>
       <div className="mx-auto mt-4 mb-6 w-[200px] h-[200px] sx:w-[300px] sm:h-[300px] lg:w-[470px] lg:h-[470px]">
-        <img
-          src="src/assets/header-img/play-img.svg"
-          className="w-full h-full"
-        />
+        <img src="assets/header-img/play-img.svg" className="w-full h-full" />
       </div>
       <section className="text-center text-white">
         <h1 className="font-bold text-2xl max-w-80 mx-auto pb-3 md:max-w-none">
