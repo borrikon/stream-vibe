@@ -1,6 +1,8 @@
 # stream-vibe
 
-Web-app for streaming company
+Web-app for streaming company (sandbox)
+
+run npm i and npm run dev to start the project
 
 # React + TypeScript + Vite
 

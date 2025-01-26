@@ -5,7 +5,7 @@ import MainBtn from "../main-btn";
 
 function Header() {
   return (
-    <header className="bg-no-repeat xs:bg-cover 3xl:bg-contain bg-[url('src/assets/header-img/posters-mini.png'),_url('src/assets/header-img/fade-out-bottom.svg')] bg-[position:center_top,_center_bottom] xs:bg-[url('src/assets/header-img/posters-md.png'),_url('src/assets/header-img/fade-out-bottom.svg')] xl:bg-[url('src/assets/header-img/posters-lg.png'),_url('src/assets/header-img/fade-out-bottom.svg')]">
+    <header className="bg-no-repeat xs:bg-cover 3xl:bg-contain bg-[url('assets/header-img/posters-mini.png'),_url('assets/header-img/fade-out-bottom.svg')] bg-[position:center_top,_center_bottom] xs:bg-[url('assets/header-img/posters-md.png'),_url('assets/header-img/fade-out-bottom.svg')] xl:bg-[url('src/assets/header-img/posters-lg.png'),_url('src/assets/header-img/fade-out-bottom.svg')]">
       <nav className="flex justify-between items-center pt-10 px-4 pb-3.5">
         <Logo />
         <button className="w-12 h-12 bg-black-10 border-black-15 rounded-xl border-4 hover:cursor-pointer">
