@@ -10,7 +10,7 @@ import NavTools from "../nav-tools";
 function Header() {
   const { isMobile } = useResponsive();
   return (
-    <header className="bg-no-repeat xs:bg-cover 3xl:bg-contain bg-[url('assets/header-img/posters-mini.png'),_url('assets/header-img/fade-out-bottom.svg')] bg-[position:center_top,_center_bottom] xs:bg-[url('assets/header-img/posters-md.png'),_url('assets/header-img/fade-out-bottom.svg')] xl:bg-[url('src/assets/header-img/posters-lg.png'),_url('src/assets/header-img/fade-out-bottom.svg')]">
+    <header className="bg-no-repeat xs:bg-cover 3xl:bg-contain bg-[url('assets/header-img/posters-mini.png'),_url('assets/header-img/fade-out-bottom.svg')] bg-[position:center_top,_center_bottom] xs:bg-[url('assets/header-img/posters-md.png'),_url('assets/header-img/fade-out-bottom.svg')] xl:bg-[url('assets/header-img/posters-lg.png'),_url('assets/header-img/fade-out-bottom.svg')]">
       <TopBar>
         <Logo />
         {!isMobile ? <Nav /> : null}
